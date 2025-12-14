@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "components": [
+    {
+      "name": "header",
+      "description": "Responsive navigation header with mobile menu, dropdowns, and dark mode support",
+      "files": [
+        "src/components/header/header.tsx",
+        "src/components/header/brand.tsx",
+        "src/components/header/nav-list.tsx",
+        "src/components/header/nav-item.tsx",
+        "src/components/header/mobile-menu.tsx",
+        "src/components/header/mobile-navigation.tsx",
+        "src/components/header/cta-button.tsx",
+        "src/components/header/user-menu.tsx",
+        "src/components/header/index.ts"
+      ],
+      "dependencies": [],
+      "devDependencies": [],
+      "peerDependencies": ["react", "react-dom"],
+      "tailwindConfig": {
+        "theme": {
+          "extend": {}
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+/* User Menu */
+.header__user-menu {
+  display: flex;
+  align-items: center;
+}

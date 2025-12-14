@@ -1,0 +1,21 @@
+{
+  "name": "rebas-ui",
+  "version": "0.1.0",
+  "description": "Rebas UI - A collection of reusable React components with Tailwind CSS",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:cli": "cd packages/cli && npm run build"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "react",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "MIT"
+}

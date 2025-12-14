@@ -1,0 +1,50 @@
+/* Header CSS Variables - Customizable theming */
+:root {
+  /* Colors - Light theme (default) */
+  --header-bg: #ffffff;
+  --header-fg: #374151;
+  --header-fg-dark: #111827;
+  --header-accent: #3b82f6;
+  --header-accent-hover: #2563eb;
+  --header-hover-bg: #f3f4f6;
+  --header-border: #e5e7eb;
+  --header-active-bg: #eff6ff;
+  --header-active-fg: #3b82f6;
+  
+  /* Dark theme colors */
+  --header-dark-bg: #1f2937;
+  --header-dark-fg: #f9fafb;
+  --header-dark-hover-bg: #374151;
+  --header-dark-border: #4b5563;
+  --header-dark-active-bg: #1e3a8a;
+  --header-dark-active-fg: #93c5fd;
+  --header-dark-hover-bg-alt: #4b5563;
+  --header-dark-fg-muted: #d1d5db;
+  
+  /* Mobile toggle */
+  --header-toggle-icon-bg: #000000;
+  --header-toggle-icon-bg-dark: #f9fafb;
+  
+  /* Dropdown */
+  --header-dropdown-bg: #ffffff;
+  --header-dropdown-border: #e5e7eb;
+  --header-dropdown-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+  /* Focus outline */
+  --header-focus-outline: 2px solid var(--header-accent);
+  --header-focus-offset: 2px;
+}
+
+/* Dark theme overrides */
+[data-theme="dark"],
+.header--dark {
+  --header-bg: var(--header-dark-bg);
+  --header-fg: var(--header-dark-fg);
+  --header-hover-bg: var(--header-dark-hover-bg);
+  --header-border: var(--header-dark-border);
+  --header-active-bg: var(--header-dark-active-bg);
+  --header-active-fg: var(--header-dark-active-fg);
+  --header-dropdown-bg: var(--header-dark-hover-bg);
+  --header-dropdown-border: var(--header-dark-border);
+  --header-toggle-icon-bg: var(--header-toggle-icon-bg-dark);
+}
