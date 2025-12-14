@@ -24,7 +24,7 @@ export async function fetchRegistry(): Promise<Registry> {
     if (!response.ok) {
       throw new Error(`Failed to fetch registry: ${response.statusText}`)
     }
-    return await response.json()
+    return await response.json() as Registry
   } catch (error) {
     throw new Error(`Failed to fetch component registry: ${error instanceof Error ? error.message : 'Unknown error'}`)
   }
