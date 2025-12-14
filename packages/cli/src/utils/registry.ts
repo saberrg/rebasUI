@@ -1,4 +1,4 @@
-const REGISTRY_URL = 'https://raw.githubusercontent.com/saberrg/rebasUI/main/registry/components.json'
+const REGISTRY_URL = 'https://raw.githubusercontent.com/saberrg/rebasUI/master/registry/components.json'
 
 export interface Component {
   name: string

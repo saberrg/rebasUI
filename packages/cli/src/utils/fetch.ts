@@ -1,4 +1,4 @@
-const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/saberrg/rebasUI/main'
+const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/saberrg/rebasUI/master'
 
 export async function fetchFile(path: string): Promise<string> {
   const url = `${GITHUB_RAW_BASE}/${path}`
