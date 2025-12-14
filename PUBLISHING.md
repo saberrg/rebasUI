@@ -131,3 +131,4 @@ After publishing:
 3. **Write changelog** documenting changes
 4. **Add more components** to the library
 5. **Set up automated publishing** via GitHub Actions
+
